@@ -99,7 +99,7 @@ export default function TeamCollaboration() {
             id: 1,
             name: "Alex Johnson",
             email: "alex@example.com",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/placeholder.jpg?height=40&width=40",
             role: "Product Manager",
             status: "online",
           },
@@ -107,7 +107,7 @@ export default function TeamCollaboration() {
             id: 2,
             name: "Sarah Williams",
             email: "sarah@example.com",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/placeholder.jpg?height=40&width=40",
             role: "Designer",
             status: "offline",
           },
@@ -115,7 +115,7 @@ export default function TeamCollaboration() {
             id: 3,
             name: "Michael Chen",
             email: "michael@example.com",
-            avatar: "/placeholder.svg?height=40&width=40",
+            avatar: "/placeholder.jpg?height=40&width=40",
             role: "Developer",
             status: "away",
           },
@@ -387,7 +387,7 @@ export default function TeamCollaboration() {
       id: Date.now(),
       name: inviteEmail.split("@")[0], // Use part of email as name
       email: inviteEmail,
-      avatar: "/placeholder.svg?height=40&width=40",
+      avatar: "/placeholder.jpg?height=40&width=40",
       role: "Team Member",
       status: "invited",
     }
@@ -937,7 +937,7 @@ export default function TeamCollaboration() {
                         <div key={member.id} className="flex items-center p-3 bg-[#031233] rounded-lg">
                           <div className="relative">
                             <img
-                              src={member.avatar || "/placeholder.svg"}
+                              src={member.avatar || "/placeholder.jpg"}
                               alt={member.name}
                               className="w-10 h-10 rounded-full mr-3"
                             />
