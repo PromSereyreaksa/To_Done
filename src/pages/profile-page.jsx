@@ -23,7 +23,7 @@ export default function ProfilePage() {
   const [currentPassword, setCurrentPassword] = useState("")
   const [newPassword, setNewPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
-  const [avatar, setAvatar] = useState(user.avatar || "/placeholder.svg?height=128&width=128")
+  const [avatar, setAvatar] = useState(user.avatar || "placeholder.jpg?height=128&width=128")
   const [isEditing, setIsEditing] = useState(false)
   const [error, setError] = useState("")
   const [success, setSuccess] = useState("")
